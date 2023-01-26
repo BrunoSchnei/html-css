@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: dimgray;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            
+
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+            border-radius: 10px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        nav{
+            background-color: gray;
+            padding: 3px;
+            text-align: right;
+            box-shadow: 1px 1px  5px rgba(0, 0, 0, 0.579); /* horizontal - vertical - blur - espalhamento - cor*/
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Fotos</a>
+            <a href="#">Vídeos</a>
+            <a href="#">Links</a>
+            <a href="#">Sobre Mim</a>
+            <a href="#">Contato</a>
+            
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Notícia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam soluta ex et reprehenderit sequi suscipit, ut beatae similique officia numquam, laborum officiis illum distinctio ipsum nemo neque minima optio dolore.</p>
+            <aside>
+                <p>Artigo escrito por José da Silva</p>
+            </aside>
+        </article>
+        <article>
+            
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por cursoemvideo</p>
+    </footer>
+</body>
+</html>
