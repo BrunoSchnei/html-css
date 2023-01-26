@@ -204,3 +204,8 @@ footer a:hover {
     text-decoration: underline;
     color: var(--cor1);
 }
+ @media (max-width: 576px){
+    nav > a{
+        padding: 3px;
+    }
+ }
